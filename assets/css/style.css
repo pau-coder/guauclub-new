@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "raleway", sans-serif;
   color: #444444;
 }
 
@@ -520,7 +520,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #5532AE;
 }
 
 .section-title h2::before {
@@ -540,7 +540,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #5532AE;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -696,7 +696,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #5532AE;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -723,7 +723,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -765,7 +765,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #5532AE;
   font-family: "Poppins", sans-serif;
 }
 
@@ -781,7 +781,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 .skills .content p:last-child {
@@ -802,7 +802,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #37517e;
+  color: #5532AE;
 }
 
 .skills .progress .skill .val {
@@ -811,7 +811,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #e8edf5;
+  background: #ffffff;
   height: 10px;
 }
 
@@ -819,7 +819,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #4668a2;
+  background-color: #5532AE;
 }
 
 /*--------------------------------------------------------------
@@ -837,7 +837,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: #5532AE;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -849,7 +849,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #5532AE;
   transition: ease-in-out 0.3s;
 }
 
@@ -864,7 +864,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 /*--------------------------------------------------------------
@@ -942,7 +942,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
+  background: #5532AE;
   color: #fff;
 }
 
@@ -994,7 +994,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1030,11 +1030,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #47b2e4;
+  border: 1px solid #5532AE;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #47b2e4;
+  background-color: #5532AE;
 }
 
 .portfolio-details .portfolio-info {
@@ -1108,7 +1108,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #5532AE;
 }
 
 .team .member span {
@@ -1191,12 +1191,12 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #5532AE;
 }
 
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #5532AE;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1249,17 +1249,17 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #5532AE;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #5532AE;
 }
 
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #5532AE;
   color: #fff;
 }
 
@@ -1268,12 +1268,12 @@ section {
 }
 
 .pricing .featured .buy-btn {
-  background: #47b2e4;
+  background: #5532AE;
   color: #fff;
 }
 
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: #5532AE;
 }
 
 @media (max-width: 992px) {
@@ -1337,7 +1337,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1383,8 +1383,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #7438BF;
+  border-bottom: 3px solid #7438BF;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1393,7 +1393,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #5532AE;
   float: left;
   width: 44px;
   height: 44px;
@@ -1410,7 +1410,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #5532AE;
 }
 
 .contact .info p {
@@ -1544,7 +1544,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #47b2e4;
+  background: #7438BF;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1553,7 +1553,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #209dd8;
+  background: #80D3EB;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1593,7 +1593,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #5532AE;
 }
 
 .breadcrumbs ol {
@@ -1612,7 +1612,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4668a2;
+  color: #5532AE;
   content: "/";
 }
 
@@ -1621,12 +1621,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #5532AE;
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background: #faf6f6;
   text-align: center;
   font-size: 15px;
   color: #444444;
@@ -1638,7 +1638,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #5532AE;
 }
 
 #footer .footer-newsletter form {
@@ -1666,7 +1666,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #47b2e4;
+  background: #5532AE;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1674,7 +1674,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #209dd8;
+  background: #5532AE;
 }
 
 #footer .footer-top {
@@ -1693,7 +1693,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #5532AE;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1707,7 +1707,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #5532AE;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1724,7 +1724,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #5532AE;
   font-size: 18px;
   line-height: 1;
 }
