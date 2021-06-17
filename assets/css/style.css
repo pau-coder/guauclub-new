@@ -1090,17 +1090,42 @@ section {
   background-color: #5532AE;
 }
 
+.portfolio-details .portfolio-info .btn-get-started {
+  font-family: "Work sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 24px 0 0 0;
+  color: #5532AE;
+  font-size: 14px;
+  border: 2px solid #5532AE;
+}
+
+.portfolio-details .portfolio-info .btn-get-started:hover {
+  color: #fff;
+  background: #5532AE;
+}
+
+
 .portfolio-details .portfolio-info {
   padding: 30px;
+  border-radius: 12px;
+  border-bottom: 1px solid rgba(201, 200, 200, 0.726);
   box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+.portfolio-details .portfolio-info h2 {
+  font-size: 36px;
+  font-family: "Ramaraja";
+  font-style: #E84CBE, 100%;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgb(211, 209, 209);
 }
 
 .portfolio-details .portfolio-info ul {
