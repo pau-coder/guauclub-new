@@ -9,8 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "raleway", sans-serif;
-  color: #444444;
+  font-family: "work sans", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+  color: #24160D;
 }
 
 a {
@@ -23,10 +27,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Jost", sans-serif;
+h1, h3, h4, h5, h6 {
+  font-family: "Ramaraja", serif;
 }
-
+h2,{
+  font-family: "raleway", sans-serif;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -121,17 +127,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+  font-size: 24px;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 #header .logo a {
-  color: #fff;
+  color: #E84CBE;
 }
 
 #header .logo img {
@@ -167,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #0A0401;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -179,22 +185,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 .navbar .getstarted {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
-  color: #fff;
+  color: #5532AE;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #5532AE;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #5532AE;
 }
 
 .navbar .dropdown ul {
@@ -208,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -222,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #0c3c53;
+  color: #ffffff;
 }
 
 .navbar .dropdown ul a i {
@@ -321,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -330,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .getstarted {
   margin: 15px;
-  color: #37517e;
+  color: #ffffff;
 }
 
 .navbar-mobile .dropdown ul {
@@ -371,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #7438BF;
+  background: #ffffff;
 }
 
 #hero .container {
@@ -379,21 +385,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
+  margin: 0px 0 10px 0;
+  font-family: "Ramaraja";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 74.5455px;
+  line-height: 102.83%;
+  color: #7438BF;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
-  font-size: 24px;
+  color: 24160D(255, 255, 255, 0.6);
+  margin-bottom: 6px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21.5901px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
 }
 
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: "Work sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -401,13 +414,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 28px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px 0 0 0;
-  color: #E84CBE;
-  background: #FFFFFF;
+  margin: 24px 0 0 0;
+  color: #5532AE;
+  font-size: 14px;
+  border: 2px solid #5532AE;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  color: #fff;
+  background: #5532AE;
 }
 
 #hero .btn-watch-video {
@@ -429,11 +444,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #5532AE;
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  margin: 60px;
 }
 
 @media (max-width: 991px) {
@@ -470,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 100%;
   }
   #hero .btn-get-started {
     font-size: 16px;
@@ -483,7 +498,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(10px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(10px);
   }
 }
 
@@ -492,7 +507,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(10px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(10px);
   }
 }
 
@@ -505,7 +520,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  margin-top: 120px;
+  background-color: #EBEBEB;
 }
 
 .section-title {
@@ -514,13 +530,16 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: "raleway";
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #5532AE;
+  color: #24160D, 100 %;
 }
 
 .section-title h2::before {
@@ -546,7 +565,14 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+  margin-bottom: 24;
 }
 
 /*--------------------------------------------------------------
@@ -830,12 +856,16 @@ section {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  border-radius: 12px;
 }
 
-.services .icon-box .icon {
+.services .icon-box .icon h1 {
   margin-bottom: 10px;
+  color: #5532AE;
 }
-
+.services .icon-box .icon .number2 {
+  color: #E88B3B;
+}
 .services .icon-box .icon i {
   color: #5532AE;
   font-size: 36px;
