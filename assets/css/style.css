@@ -666,6 +666,12 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 60px 100px 0 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.why-us {
+  background-color: rgb(255, 255, 255);
+
 }
 
 
@@ -701,6 +707,7 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: rgb(255, 255, 255);
 }
 
 .why-us .accordion-list {
@@ -1155,6 +1162,17 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+.team{
+  background-color: #5532AE;
+  border-radius: 59px;
+
+}
+
+.team .container .section-title .title-team{
+  color:#fff;
+}
+
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1277,6 +1295,12 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
+.pricing {
+  background-color: #5532AE;
+  border-radius: 59px;
+}
+
 .pricing .row {
   padding-top: 40px;
 }
@@ -1284,9 +1308,10 @@ section {
 .pricing .box {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-  background: #7438BF, 100%;
-  border-radius: 12px;
+  background: #ffffff, 100%;
+  border-radius: 24px;
   height: 100%;
+  background-color: rgb(255, 255, 255);
   border-top: 4px solid #fff;
   border-radius: 5px;
 }
@@ -1300,7 +1325,7 @@ section {
 
 .pricing h4 {
   font-size: 48px;
-  color: #24160D, 100%;
+  color: #ffffff, 100%;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1311,7 +1336,7 @@ section {
 }
 
 .pricing h4 span {
-  color: #24160D, 100%;
+  color: #ffffff, 100%;
   font-size: 18px;
   display: block;
 }
@@ -1319,7 +1344,7 @@ section {
 .pricing ul {
   padding: 20px 0;
   list-style: none;
-  color: #999;
+  color: #24160D;
   text-align: left;
   line-height: 20px;
 }
@@ -1338,11 +1363,11 @@ section {
 }
 
 .pricing ul .na {
-  color: #ccc;
+  color: #B5B3B3 ;
 }
 
 .pricing ul .na i {
-  color: #ccc;
+  color: #B5B3B3;
 }
 
 .pricing ul .na span {
