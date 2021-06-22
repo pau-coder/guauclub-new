@@ -582,6 +582,7 @@ section {
 .cliens {
   padding: 12px 0;
   text-align: center;
+  background-color: #fff;
 }
 
 .cliens img {
@@ -1112,6 +1113,20 @@ section {
   border: 2px solid #5532AE;
 }
 
+.portfolio-details .col-lg-4 .portfolio-info .presio-antes .h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  text-decoration-line: line-through;
+  color: #B5B3B3;
+}
+
 .portfolio-details .portfolio-info .btn-get-started:hover {
   color: #fff;
   background: #5532AE;
@@ -1301,6 +1316,10 @@ section {
   border-radius: 59px;
 }
 
+.pricing .section-title h2 {
+  color:#fff;
+}
+
 .pricing .row {
   padding-top: 40px;
 }
@@ -1429,6 +1448,12 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+
+.faq {
+  background-color: #fff;
+}
+
+
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1748,6 +1773,9 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+
+
 #footer {
   font-size: 14px;
   background: #5532AE;
@@ -1808,7 +1836,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #EBEBEB;
 }
 
 #footer .footer-top .footer-contact {
