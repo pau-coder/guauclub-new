@@ -522,6 +522,7 @@ h2 {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
     color: #5532ae;
+    margin-bottom: 36px;
   }
 }
 
@@ -712,6 +713,7 @@ section {
 
 .why-us {
   background-color: rgb(255, 255, 255);
+  padding-bottom: 60px;
 }
 
 .why-us .content h3 {
@@ -838,6 +840,8 @@ section {
   }
   .why-us .content {
     padding-top: 30px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
   .why-us .accordion-list {
     padding-bottom: 30px;
@@ -886,6 +890,10 @@ section {
   border-radius: 0;
 }
 
+.txtchico {
+  font-size: 15px;
+}
+
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
@@ -911,6 +919,15 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #5532ae;
+}
+@media (max-width: 1024px) {
+  .skills .container .row {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1416,6 +1433,11 @@ section {
 .pricing .section-title h2 {
   color: #fff;
 }
+.titlecenter {
+  color: #5532ae;
+  font-size: 20px;
+  text-align: center;
+}
 
 .pricing .row {
   padding-top: 40px;
@@ -1856,7 +1878,10 @@ section {
     transform: rotate(360deg);
   }
 }
-
+@media (max-width: 992px) {
+  .contact .container {
+  }
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
